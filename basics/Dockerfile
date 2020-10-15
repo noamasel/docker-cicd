@@ -3,7 +3,7 @@ WORKDIR /app
 ADD . /app
 RUN ls -ltrh
 RUN echo " this is a test "
-RUN cd . /app
+RUN cd basic
 RUN npm install
 EXPOSE 3000
 CMD npm start
